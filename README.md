@@ -5,7 +5,7 @@ VSTS Auto Deployment for SPFx package using SharePoint App ID Secret
 2. Save the App ID and Secret 
 3. Grant Full Control Permission to the app on the site (for site collection levels apps)/ Tenant App catalog site (for tenant level apps)		
 	1. Go to https://tenant.sharepoint.com/sites/sitename/_layouts/appinv.aspx
-	2. Enter App ID saved in step no. 3 and hit lookup
+	2. Enter App ID saved in step no. 2 and hit lookup
 	3. Enter permission xml from the permissionxml file          
   	4. Click Ok	
 4. Got to VSTS Pipelines

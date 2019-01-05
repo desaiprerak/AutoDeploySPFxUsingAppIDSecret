@@ -7,11 +7,11 @@
 	2. Enter App ID saved in step no. 2 and hit lookup
 	3. Enter permission xml from the permissionxml file          
   	4. Click Ok	
-4. Got to VSTS Pipelines
+4. Go to VSTS Pipelines
 5. Create Release Pipeline
 6. Remove existing tasks and add 2 powershell tasks
 7. For 1st task add commands to Install Pnp module
-8. For second powershell Task add the following Inline task
+8. For second powershell Task add the following Inline script
 	1. Connect-PnPOnline  -AppId $AppId -AppSecret $AppSecret -Url $SiteUrl
 	2. Add-PnPApp -Path $packagePath -Scope Site -Publish -Overwrite 'OR'
 	3. Add-PnPApp -Path $packagePath -Publish -Overwrite

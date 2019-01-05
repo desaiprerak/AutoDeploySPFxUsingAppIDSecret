@@ -1,6 +1,5 @@
-# sharepoint
+# VSTS Auto Deployment for SPFx package using SharePoint App ID Secret
 
-VSTS Auto Deployment for SPFx package using SharePoint App ID Secret
 1. Create a SharePoint App ID and Secret using the url https://tenant.sharepoint.com/sites/sitename/_layouts/appregnew.aspx
 2. Save the App ID and Secret 
 3. Grant Full Control Permission to the app on the site (for site collection levels apps)/ Tenant App catalog site (for tenant level apps)		
